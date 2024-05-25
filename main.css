@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family:Montserrat-Thin ;
+    src: url(Users/test/Library/Fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:Montserrat-ExtraBold ;
+    src: url(/Users/test/Library/Fonts/Montserrat-ExtraBold.ttf);
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+header .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+header .container nav a{
+    
+    font-family:Montserrat-Thin;
+    text-decoration: none;
+    color: rgba(16, 16, 16, 1);
+    margin: 10px;
+}
+header .container nav a span{
+    color: rgba(165, 36, 36, 1);
+}
+
+main .container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .container .introduce {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+main .container .introduce .description h1{
+    font-size: 64px;
+    font-weight: 500;
+    font-family: Montserrat-ExtraBold;
+}
+main .container .introduce .description p{
+   font-family:Montserrat-Thin ;
+   padding: 20px 0 60px;
+}
+main .container .introduce .description button{
+    border: 1px solid rgba(165, 36, 36, 1);
+    background-color: white;
+    color: rgba(165, 36, 36, 1);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+main .container .introduce img{
+    width: 40%;
+}
+main .container .about_me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .about_me h2{
+    font-family:Montserrat-ExtraBold ;
+    font-size: 50px;
+    font-weight: 500;
+}
+main .container .about_me .name p{
+    font-size:30px;
+    font-weight: 200;
+    color: rgba(165, 36, 36, 1);
+    font-family:Montserrat-Thin ;
+}
+main .container .about_me .information{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;     
+}
+main .container .about_me .information h3{
+    color: rgba(165, 36, 36, 1);
+    font-family:Montserrat-Thin;
+}
+main .container .about_me .information p{
+    color:rgba(35, 35, 35, 1);  
+    font-family:Montserrat-Thin;
+}
+main .container .about_me .information img{
+    width: 80%;
+    margin: 0 0 0 50px;
+}
+ .portfoli h4{
+    font-size:40px;
+   
+    color:  rgba(35, 35, 35, 1);
+    font-family:Montserrat-ExtraBold;
+}
+.portfoli .container{
+    display: flex;
+    justify-content: space-between;
+}
+ .portfoli .container .photo {
+    display: flex;
+    justify-content: space-between;
+ }
+.portfoli .container  .photo div{
+    width: 30%;  
+    margin: 15px; 
+}
+.portfoli .container  .photo div img{
+    width: 94%;
+    margin: 15px;
+    
+}
+.portfoli .container .photo div button{
+    color: rgba(165, 36, 36, 1);
+    background-color: white;
+    border:1px solid rgba(165, 36, 36, 1);
+    padding: 15px;
+}
+.portfoli .container .photo div p{
+    color: rgba(16, 16, 16, 1);
+    font-family:Montserrat-Thin;
+}
+.price .container {
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-evenly;
+   }
+.price h5{
+    font-family:Montserrat-ExtraBold;
+    font-size: 50px;
+}
+.price .container .photo_price .info{
+    display: flex;
+    flex-direction: row; 
+}
+.price .container .video .info{
+    display: flex;
+    flex-direction: row; 
+}
+
+.price .container h6{
+    color: rgba(165, 36, 36, 1);
+    text-align: center;
+    font-family:Montserrat-Thin;
+    font-size: 15px;
+
+}    
+.price .container .basic p{
+   color:rgba(35, 35, 35, 1); 
+   font-family:Montserrat-Thin;
+   margin: 30px;
+}
+.price .container .basic p span{
+    color: rgba(165, 36, 36, 1);
+    font-family:Montserrat-ExtraBold;
+}
+.price .container .quantity {
+    margin: 0 0 0 15px;
+}
+.price .container .quantity button{
+    color: rgba(165, 36, 36, 1);
+    font-family:ontserrat-Thin;
+    border: 1px solid rgba(165, 36, 36, 1);
+    background-color: white;
+    padding: 15px 20px;
+}   
+.recording .container{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.recording .container .images{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    weight: 30%;
+}
+.recording .container .images .photo_three{
+    position:relative;
+    
+
+}
+.recording .container .images .photo_four{
+    position:relative;
+    right: 30px;
+
+}
+.recording h6{
+    font-size:  30px;
+    color:  rgba(35, 35, 35, 1);
+    font-family:Montserrat-ExtraBold;
+    padding: 10px;
+}   
+.recording .container form {
+    width: 48%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.recording .container  form input{
+    padding: 15px;
+    margin: 0 0 40px;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(35, 35, 35, 0.35);
+}
+.recording .container  form #message{
+    height: 220px;
+}
+ .recording .container form button{
+    padding: 15px;
+    width: 100%;
+    margin: 0 0 50px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+    font-weight:400;
+    color:rgba(165, 36, 36, 1);
+    border:1px solid rgba(165, 36, 36, 1);
+}
+footer{
+    border-top: 1px solid rgba(35, 35, 35, 0.5);
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container nav a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 5px 100px 0 30px ;
+    
+}
+footer .container nav a span{
+    color: rgba(165, 36, 36, 1);
+}
